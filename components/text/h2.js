@@ -1,6 +1,6 @@
 import * as React from 'react'
 import styled from 'styled-components'
-import getHeadingID from './util'
+import { getHeadingID } from './util'
 
 export default ({ children }) => {
   const id = getHeadingID(children)

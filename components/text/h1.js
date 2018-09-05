@@ -1,6 +1,6 @@
 import * as React from 'react'
 import styled from 'styled-components'
-import getHeadingID from './util'
+import { getHeadingID } from './util'
 
 export default ({ children }) => {
   const id = getHeadingID(children)
@@ -8,7 +8,7 @@ export default ({ children }) => {
   return (
     <React.Fragment>
       <TitleLink href={`#${id}`}>
-        <StyledH1 id={id}>{children}</h1>
+        <StyledH1 id={id}>{children}</StyledH1>
       </TitleLink>
     </React.Fragment>
   )
