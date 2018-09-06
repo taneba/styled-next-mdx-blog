@@ -5,6 +5,8 @@
 - Next.js
 - styled-components
 - mdx
+- normalize.css (via styled-normalize)
+- prettier
 
 ## How to use
 Clone repo:
