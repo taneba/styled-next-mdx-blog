@@ -1,8 +1,8 @@
 import { createGlobalStyle } from 'styled-components'
-import styledNormalize from 'styled-normalize'
+import { normalize } from 'polished'
 
 export default createGlobalStyle`
-${styledNormalize}
+${normalize()}
 
 /* custom global styles can be written here  */
 body {

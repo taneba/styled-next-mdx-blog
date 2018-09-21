@@ -19,11 +19,11 @@
     "@mdx-js/tag": "0.15.0",
     "@zeit/next-mdx": "1.1.0",
     "next": "6.1.1",
+    "polished": "2.0.3",
     "prettier": "1.14.2",
     "react": "16.4.2",
     "react-dom": "16.4.2",
-    "styled-components": "4.0.0-beta.5",
-    "styled-normalize": "8.0.0"
+    "styled-components": "4.0.0-beta.5"
   },
   "devDependencies": {
     "babel-plugin-preval": "3.0.0",
